@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the temporal boundary expectations for identifiers `5650` and `900` at the connector planning layer.
+This document defines the temporal boundary expectations for spreadsheet-governed SAD administrative workflows associated with `5650` / `900` at the connector planning layer.
 
 ## Governance
 
@@ -16,38 +16,40 @@ This connector is governed by:
 ## Temporal Preconditions
 
 Any future implementation path requires:
-1. source owner identification
-2. source access method confirmation
+1. included resolutions or process families
+2. declared Google Sheets source confirmation
 3. institutional purpose
 4. temporal reconstruction window
-5. allowed fields
+5. required fields by process
 6. excluded fields
 7. audit/evidence expectations
 8. known data limitations
+9. mutable-sheet reconstruction expectations
 
 ## Reconstruction Window Requirement
 
-No governed interpretation of `5650` or `900` should proceed without an explicitly declared temporal reconstruction window.
+No governed interpretation of `5650` / `900` spreadsheet workflows should proceed without an explicitly declared temporal reconstruction window.
 
 The window must describe:
 - what period is under review
 - what historical comparison is expected
 - what level of temporal stability can reasonably be claimed
+- what sheet or worksheet state is expected to represent that period
 
 ## No Timeless Omission Rule
 
-No omission should ever be inferred from identifiers `5650` or `900` without a declared reconstruction window.
+No omission should ever be inferred from `5650` / `900` spreadsheet workflows without a declared reconstruction window.
 
 Absence without period remains undefined, not governed omission.
 
 ## Ambiguity Boundary
 
-If historical retention, update cadence, or snapshot expectations are unknown, that uncertainty must be preserved as a limitation rather than silently resolved.
+If historical retention, update cadence, snapshot expectations, or mutable Google Sheets behavior are unknown, that uncertainty must be preserved as a limitation rather than silently resolved.
 
 ## Implementation Block
 
-This connector cannot move to implementation until `5650` and `900` are formally described in the declared sources catalog.
+This connector cannot move to implementation until the relevant spreadsheet workflows and their declared Google Sheets sources are formally described in the declared sources catalog.
 
 ## Summary
 
-Temporal interpretation for `5650` and `900` remains blocked until reconstruction windows can be formally declared.
+Temporal interpretation for `5650` / `900` remains blocked until spreadsheet workflow windows and declared Sheets reconstruction conditions can be formally declared.

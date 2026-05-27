@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the compliance rules any future connector for identifiers `5650` and `900` must inherit.
+This document defines the compliance rules any future connector for spreadsheet-governed SAD administrative workflows associated with `5650` / `900` must inherit.
 
 ## Governance
 
@@ -16,14 +16,15 @@ This connector is governed by:
 ## Compliance Requirements
 
 Any future implementation path requires:
-1. source owner identification
-2. source access method confirmation
+1. included resolutions or process families
+2. declared Google Sheets source confirmation
 3. institutional purpose
 4. temporal reconstruction window
-5. allowed fields
+5. required fields by process
 6. excluded fields
 7. audit/evidence expectations
 8. known data limitations
+9. bounded Apps Script implementation handoff
 
 ## Rules
 
@@ -47,10 +48,18 @@ Any future connector must inherit governance from `sad-moron-framework` and cann
 
 Connector logic must not override declared source meaning, evidence classification, temporal boundaries, or institutional decision authority.
 
+### Rule 6: No misclassification by implementation pressure
+
+This connector must not be reclassified as COBOL, legacy-system, or provincial-system integration merely because spreadsheet workflows may later exchange data with other systems.
+
+### Rule 7: Implementation separation
+
+Any later Google Sheets or Apps Script runtime implementation belongs in `sad-moron-appscript`, not in this repository.
+
 ## Implementation Block
 
-This connector cannot move to implementation until `5650` and `900` are formally described in the declared sources catalog.
+This connector cannot move to implementation until the relevant spreadsheet workflows and their declared Google Sheets sources are formally described in the declared sources catalog.
 
 ## Summary
 
-Compliance for `5650` and `900` is governance-first and blocks implementation until the identifiers are institutionally defined.
+Compliance for `5650` / `900` is governance-first and blocks implementation until the spreadsheet workflows, declared Sheets surfaces, and implementation handoff boundary are institutionally defined.

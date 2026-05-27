@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the source contract requirements that must be satisfied before identifiers `5650` and `900` can support connector implementation.
+This document defines the source contract requirements that must be satisfied before spreadsheet-governed SAD administrative workflows associated with `5650` / `900` can support connector implementation planning.
 
 ## Governance
 
@@ -16,37 +16,42 @@ This connector is governed by:
 ## Contract Requirements
 
 The source contract must explicitly define:
-1. source owner identification
-2. source access method confirmation
+1. included resolutions or process families
+2. declared Google Sheets source identification
 3. institutional purpose
 4. temporal reconstruction window
-5. allowed fields
+5. required fields by process
 6. excluded fields
 7. audit/evidence expectations
 8. known data limitations
+9. reusable workflow boundary for later Apps Script implementation
 
 ## Interpretation Rules
 
-### Rule 1: No technical assumption
+### Rule 1: Spreadsheet workflow classification
 
-Identifiers `5650` and `900` must not be treated as technically understood sources until formally described.
+`5650` / `900` must be treated as a spreadsheet-governed SAD workflow specification, not as a COBOL source connector and not as a direct legacy or provincial system connector.
 
 ### Rule 2: Institutional meaning first
 
-The source contract must establish institutional purpose before any future technical mapping.
+The source contract must establish institutional purpose, included administrative processes, and declared Sheets boundaries before any future technical mapping.
 
 ### Rule 3: Field boundary required
 
-Allowed and excluded fields must be declared before implementation is contemplated.
+Required and excluded fields must be declared by process before implementation is contemplated.
 
 ### Rule 4: Audit expectation required
 
 The source contract must state how later audit and evidence interpretation can remain possible.
 
+### Rule 5: Implementation separation required
+
+Any later runtime execution belongs in `sad-moron-appscript`, not in this repository.
+
 ## Implementation Block
 
-This connector cannot move to implementation until `5650` and `900` are formally described in the declared sources catalog.
+This connector cannot move to implementation until the relevant spreadsheet workflows and their declared Google Sheets sources are formally described in the declared sources catalog.
 
 ## Summary
 
-The source contract for `5650` and `900` is incomplete by design until institutional confirmation occurs.
+The source contract for `5650` / `900` remains incomplete by design until the bounded spreadsheet workflows, declared Sheets surfaces, and process-specific fields are institutionally confirmed.
