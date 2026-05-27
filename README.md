@@ -53,6 +53,6 @@ This repository does not allow:
 
 ## Layer Role
 
-This is not a runtime repository yet.
+This repository is not a runtime repository. Runtime execution belongs in a separate governed implementation repository.
 
 Its role is to define the connector layer as a governed boundary between declared institutional sources and any future lower-layer implementation.

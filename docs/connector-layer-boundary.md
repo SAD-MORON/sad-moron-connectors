@@ -41,6 +41,8 @@ Every connector must stay within declared source boundary and institutional purp
 
 Connector definitions remain pre-implementation until a later governed repository introduces bounded execution.
 
+Runtime expansion is prohibited inside this repository; implementation handoff must occur through `docs/implementation-handoff-protocol.md`.
+
 ## Summary
 
 The connector layer is a planning and contract layer, not an implementation layer.
