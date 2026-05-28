@@ -1,0 +1,15 @@
+SAD-MORON Connectors
+
+Connector contracts / boundaries / governance packs layer.
+
+Initial governance architecture:
+Martín Nicolás Sánchez Morales
+
+This repository inherits governance principles from Janus Core and implements
+the SAD Framework connector-contract layer.
+
+This repository is licensed under the Apache License, Version 2.0.
+
+Real operational connectors, credentials, deployments, institutional mappings,
+API endpoints, and production integrations may remain external or private where
+boundary, security, or institutional constraints require it.

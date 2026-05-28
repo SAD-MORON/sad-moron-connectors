@@ -22,7 +22,8 @@ This connector is governed by:
 5. Which fields are required for governed use in each included process?
 6. Which fields, comments, formatting conventions, or mixed-purpose content are excluded from governed use?
 7. What temporal reconstruction window is realistic and governable for each included spreadsheet workflow?
-8. Which Apps Script functions currently exist in the associated script ID?
+8. Which Apps Script functions currently exist in the associated local-only
+   implementation reference?
 9. Which parts of the workflow are reusable across spreadsheet-based administrative processes?
 10. What audit and evidence expectations can later be supported for these mutable spreadsheet records?
 11. What data limitations are already known institutionally?
